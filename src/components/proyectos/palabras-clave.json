@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_proyectos_palabras_claves",
+  "info": {
+    "displayName": "palabrasClave",
+    "icon": "priceTag"
+  },
+  "options": {},
+  "attributes": {
+    "palabraClave": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

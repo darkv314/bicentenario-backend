@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_proyectos_group_colors",
+  "info": {
+    "displayName": "groupColors",
+    "icon": "chartBubble"
+  },
+  "options": {},
+  "attributes": {
+    "bannerColor": {
+      "type": "enumeration",
+      "enum": [
+        "azul",
+        "naranja",
+        "rojo",
+        "morado"
+      ],
+      "required": true
+    },
+    "textColor": {
+      "type": "enumeration",
+      "enum": [
+        "azul",
+        "morado",
+        "verde",
+        "naranja"
+      ],
+      "required": true
+    }
+  }
+}
