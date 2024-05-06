@@ -5,11 +5,16 @@ export interface ProyectosGroupColors extends Schema.Component {
   info: {
     displayName: 'groupColors';
     icon: 'chartBubble';
+    description: '';
   };
   attributes: {
-    bannerColor: Attribute.Enumeration<['azul', 'naranja', 'rojo', 'morado']> &
+    bannerColor: Attribute.Enumeration<
+      ['azul', 'naranja', 'naranja claro', 'rojo', 'morado', 'morado claro']
+    > &
       Attribute.Required;
-    textColor: Attribute.Enumeration<['azul', 'morado', 'verde', 'naranja']> &
+    textColor: Attribute.Enumeration<
+      ['azul', 'naranja', 'naranja claro', 'rojo', 'morado', 'morado claro']
+    > &
       Attribute.Required;
   };
 }

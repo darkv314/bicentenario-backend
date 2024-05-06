@@ -2,7 +2,8 @@
   "collectionName": "components_proyectos_group_colors",
   "info": {
     "displayName": "groupColors",
-    "icon": "chartBubble"
+    "icon": "chartBubble",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -11,8 +12,10 @@
       "enum": [
         "azul",
         "naranja",
+        "naranja claro",
         "rojo",
-        "morado"
+        "morado",
+        "morado claro"
       ],
       "required": true
     },
@@ -20,9 +23,11 @@
       "type": "enumeration",
       "enum": [
         "azul",
+        "naranja",
+        "naranja claro",
+        "rojo",
         "morado",
-        "verde",
-        "naranja"
+        "morado claro"
       ],
       "required": true
     }
