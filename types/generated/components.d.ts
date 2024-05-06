@@ -9,11 +9,27 @@ export interface ProyectosGroupColors extends Schema.Component {
   };
   attributes: {
     bannerColor: Attribute.Enumeration<
-      ['azul', 'naranja', 'naranja claro', 'rojo', 'morado', 'morado claro']
+      [
+        'azul',
+        'verde',
+        'naranja',
+        'naranja claro',
+        'morado',
+        'morado claro',
+        'rojo'
+      ]
     > &
       Attribute.Required;
     textColor: Attribute.Enumeration<
-      ['azul', 'naranja', 'naranja claro', 'rojo', 'morado', 'morado claro']
+      [
+        'azul',
+        'verde',
+        'naranja',
+        'naranja claro',
+        'morado',
+        'morado claro',
+        'rojo'
+      ]
     > &
       Attribute.Required;
   };
