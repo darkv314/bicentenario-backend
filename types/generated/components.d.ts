@@ -13,9 +13,9 @@ export interface ProyectosGroupColors extends Schema.Component {
         'azul',
         'verde',
         'naranja',
-        'naranja claro',
+        'naranja-claro',
         'morado',
-        'morado claro',
+        'morado-claro',
         'rojo'
       ]
     > &
@@ -25,9 +25,9 @@ export interface ProyectosGroupColors extends Schema.Component {
         'azul',
         'verde',
         'naranja',
-        'naranja claro',
+        'naranja-claro',
         'morado',
-        'morado claro',
+        'morado-claro',
         'rojo'
       ]
     > &
