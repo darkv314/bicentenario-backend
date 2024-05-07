@@ -13,9 +13,9 @@
         "azul",
         "verde",
         "naranja",
-        "naranja-claro",
+        "naranjaClaro",
         "morado",
-        "morado-claro",
+        "moradoClaro",
         "rojo"
       ],
       "required": true
@@ -26,9 +26,9 @@
         "azul",
         "verde",
         "naranja",
-        "naranja-claro",
+        "naranjaClaro",
         "morado",
-        "morado-claro",
+        "moradoClaro",
         "rojo"
       ],
       "required": true
